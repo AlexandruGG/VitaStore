@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditorTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/editorColorPrimary</item>
+        <item name="colorPrimaryDark">@color/editorColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CategoryStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/size_16dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <style name="EditorFieldStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="EditorButtonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/size_32dp</item>
+        <item name="android:paddingLeft">@dimen/size_12dp</item>
+        <item name="android:paddingRight">@dimen/size_12dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/editorColorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+    </style>
+
+    <style name="QuantityButtonStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/size_4dp</item>
+        <item name="android:layout_marginBottom">@dimen/size_4dp</item>
+        <item name="android:background">@color/editorColorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:tint">@android:color/white</item>
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+    </style>
+
+    <style name="SaleButtonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginRight">@dimen/size_12dp</item>
+        <item name="android:paddingLeft">@dimen/size_4dp</item>
+        <item name="android:paddingRight">@dimen/size_4dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+    </style>
+</resources>

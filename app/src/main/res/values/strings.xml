@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VitaStore</string>
+
+    <string name="action_insert_dummy_product">Insert Dummy Product</string>
+    <string name="action_delete_all_products">Delete All Products</string>
+    <string name="text_quantity">Quantity: </string>
+
+    <string name="empty_view_title_text">Your store is empty…</string>
+    <string name="empty_view_subtitle_text">Start adding supplements</string>
+
+    <string name="editor_activity_title_new_product">Add a Product</string>
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="product_details">Product Details</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="supplier_details">Supplier Details</string>
+    <string name="hint_product_name">Product Name</string>
+    <string name="hint_product_price">Price (£)</string>
+    <string name="hint_supplier_name">Supplier Name</string>
+    <string name="hint_supplier_telephone">Supplier Telephone</string>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+
+    <string name="editor_insert_product_successful">added to store inventory</string>
+    <string name="editor_insert_product_failed">Error with adding product to inventory</string>
+    <string name="editor_full_details_needed">Please input all product details to continue</string>
+    <string name="editor_max_quantity_reached">Maximum product quantity reached!</string>
+    <string name="editor_min_quantity_reached">Minimum product quantity reached!</string>
+
+    <string name="editor_update_product_successful">updated successfully</string>
+    <string name="editor_update_product_failed">Error with updating</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="editor_delete_product_successful">deleted successfully</string>
+    <string name="editor_delete_product_failed">Error with deleting</string>
+
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="delete_all_products">Supplement inventory cleared</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="button_contact">Contact Supplier</string>
+    <string name="button_sell">Sell</string>
+    <string name="pound_symbol">£</string>
+</resources>
